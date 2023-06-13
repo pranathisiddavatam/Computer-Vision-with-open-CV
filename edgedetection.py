@@ -1,7 +1,7 @@
 import cv2
  
 # Read the original image
-img = cv2.imread("C:/Users/Dama Prasoona/Downloads/harr   ypotter.png") 
+img = cv2.imread("C:/Users/Pranathi/Downloads/harr   ypotter.png") 
 # Display original image
 cv2.imshow('Original', img)
 cv2.waitKey(0)
