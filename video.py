@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # Create a VideoCapture object and read from input file
-cap = cv2.VideoCapture("C:/Users/Dama Prasoona/OneDrive/Pictures/BMNF2625.MP4")
+cap = cv2.VideoCapture("C:/Users/Pranathi/OneDrive/Pictures/BMNF2625.MP4")
 
 # Check if camera opened successfully
 if (cap.isOpened()== False):
