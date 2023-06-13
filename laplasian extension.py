@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("C:/Users/Dama Prasoona/OneDrive/Pictures/21.png")
+img = cv2.imread("C:/Users/Pranathi/OneDrive/Pictures/21.png")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 kernel = np.array([[0,1,0], [1,-4,1], [0,1,0]])
