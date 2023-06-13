@@ -1,7 +1,7 @@
 import cv2*
 
 # Load the video
-cap = cv2.VideoCapture("C:/Users/Dama Prasoona/OneDrive/Pictures/Camera Roll/WIN_20230513_10_41_29_Pro.mp4")
+cap = cv2.VideoCapture("C:/Users/Pranathi/OneDrive/Pictures/Camera Roll/WIN_20230513_10_41_29_Pro.mp4")
 
 # Get the number of frames in the video
 num_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
