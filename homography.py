@@ -4,7 +4,7 @@ import numpy as np
 if __name__ == '__main__' :
  
     # Read source image.
-    im_src = cv2.imread("C:/Users/Dama Prasoona/Downloads/harrypotter.png")
+    im_src = cv2.imread("C:/Users/Pranathi/Downloads/harrypotter.png")
     # Four corners of the book in source image
     pts_src = np.array([[141, 131], [480, 159], [493, 630],[64, 601]])
  
