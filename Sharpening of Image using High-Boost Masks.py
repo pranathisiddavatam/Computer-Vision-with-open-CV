@@ -11,7 +11,7 @@ roi = resized_img[top_y:bottom_y, left_x:right_x]
 result = cv2.addWeighted(roi, 1, resized_wm, 0.3, 0)
 resized_img[top_y:bottom_y, left_x:right_x] = result
 
-filename = "C:/Users/Dama Prasoona/Downloads/harr.png"
+filename = "C:/Users/Pranathi/Downloads/harr.png"
 cv2.imwrite(filename, resized_img)
 cv2.imshow("Resized Input Image", resized_img)
 cv2.waitKey(0)
