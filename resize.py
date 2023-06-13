@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img=cv2.imread("C:/Users/Dama Prasoona/Downloads/harrypotter.png")
+img=cv2.imread("C:/Users/Pranathi/Downloads/harrypotter.png")
 resize=cv2.resize(img,(1450,1040))
 cv2.imshow("resize",resize)
 re=cv2.resize(img,(25,25))
