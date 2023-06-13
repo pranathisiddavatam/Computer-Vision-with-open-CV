@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Read the image
-img = cv2.imread("C:/Users/Dama Prasoona/OneDrive/Pictures/ss.png")
+img = cv2.imread("C:/Users/Pranathi/OneDrive/Pictures/ss.png")
 
 # Convert the image to grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
